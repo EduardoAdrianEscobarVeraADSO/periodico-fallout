@@ -1,13 +1,19 @@
-.body1{
+body{
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    
+}
+.total-block{
     background-color: #c7ba98;
     position: absolute;
+    margin: auto;
+    width: 890px;
+    height: 940px;
     top: 0;
     right: 0;
     left: 0;
-    bottom: 0;
-    width: 890px;
-    height: 940px;
-    margin: auto;
 }
 
 .caja1{
@@ -20,7 +26,7 @@
     margin: auto;
 }
 
-.cajaI{
+.cajab{
     position: absolute;
     top: 0;
     right: 0;
@@ -31,7 +37,7 @@
 }
 
 
-.caja1D{
+.caja1a{
     position: absolute;
     top: 20px;
     left: 20px;
@@ -41,7 +47,7 @@
     border: 2px solid black;
 }
 
-.caja2D{
+.caja2a{
     position: absolute;
     top: 20px;
     left: 240px;
@@ -51,7 +57,7 @@
     border: 2px solid black;
 }
 
-.caja3D{
+.caja3a{
     position: absolute;
     top: 480px;
     left: 20px;
@@ -61,34 +67,37 @@
     border: 6px double black;
 }
 
-.caja1I{
+.cajab1{
     position: absolute;
     left: 15px;
     top: 20px;
     width: 190px;
     height: 680px;
     margin: auto;
-    border: 2px solid black;
+    
 }
 
-.caja2I{
+.cajab2{
     position: absolute;
     left: 220px;
     top: 20px;
     width: 190px;
     height: 680px;
     margin: auto;
-    border: 2px solid black;
+    
 }
 
-.caja3I{
+.cajab3{
     position: absolute;
-    top: 710px;
+    top: 680px;
     width: 395px;
     left: 15px;
-    height: 200px;
+    height: 240px;
     margin: auto;
-    border: 2px solid black;
+    background-image: url(finalT_T.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-items: center;
 }
 
 .textimg2{
@@ -102,7 +111,7 @@
     height: 150px;
     font-size: 80%;
 }
-.textimg1{
+.textoimagen1{
     position: absolute;
     right: 0;
     left: 0;
@@ -116,10 +125,25 @@
     border: 3px dashed black;
     background-color: #908a74;
 }
-.textimg2 p{
+.textoimagen2{
+    font-size: 60%;
     text-align: center;
+    margin-top: 100px;
+
 }
-.opening{
+.item1{
+    text-align: left;
+    margin-left: 30px;
+}
+.item2{
+    text-align: left;
+    margin-left: 30px;
+}
+.item3{
+    text-align: left;
+    margin-left: 30px;
+}
+.grand{
     position: absolute;
     right: 0;
     left: 0;
@@ -161,7 +185,7 @@
     top: -10px;
 }
 
-.lorem{
+.mention{
     position: absolute;
     bottom: 0;
     right: 0;
@@ -170,7 +194,7 @@
     font-size: 100%;
 }
 
-.sign{
+.signo{
 
     position: absolute;
     left: 132px;
@@ -195,36 +219,53 @@
     margin-right: 5px;
 }
 
-.text1{
+.texto1{
+    text-align: center;
+    font-size: 80%;
+    margin-left: 8px;
+}
+
+.texto2{
     text-align: center;
     font-size: 80%;
 }
 
-.text2{
-    text-align: center;
-    font-size: 80%;
-}
-
-.call{
+.llamar{
     font-size: 100%;
     text-align: center;
 }
-.call1{
+.llamar1{
     padding-bottom: 15px;
+    margin-top: 10px;
+    
 }
 
-.textcall{
+.texto-llamar{
     position: absolute;
-    top: 315px;
+    top: 309px;
     left: 50px;
-    padding-bottom: 50px;
+    margin-bottom: 10px;
     font-size: 60%;
+    
+}
+.titulo1{
+    font-style: italic;
 }
 
-.loremtext{
+.text-info{
     padding-bottom: 30px;
+    text-align: center;
+    
 }
-
+.texto-abajo-llamar{
+    position: absolute;
+    top: 337px;
+    text-align: center;
+    left: 70px;
+    
+    font-size: 60%;
+    
+}
 .hora{
     position: absolute;
     top: 375px;
@@ -247,6 +288,7 @@
     height: 50px;
     width: 150px;
     text-align: center;
+   
 
 }
 
@@ -263,10 +305,136 @@
     left: 85px;
     bottom: 320px;
 }
-
-.the{
+.dallas{
     font-style: italic;
     position: absolute;
     top: 70px;
     left: 50px;
+}
+.what{
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 12px;
+    
+}
+.text-what{
+    width: 200px;
+    height: 100px;
+    display: block;
+    text-align: justify;
+    font-size: 10px;
+}
+.sam2{
+    text-align: center;
+    margin-top:50px;
+}
+.who{
+    width: 120px;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: block;
+    text-align: justify;
+}
+.sam{
+    position:absolute;
+    width: 150px;
+    margin-left: 150px;
+    bottom: 70px;
+    display: block;
+    content: justify;
+    font-size: 10px;
+}
+.espacio{
+    margin-right: 10px;
+}
+.top1{
+    position: absolute;
+    margin-right: 125px;
+    margin-top: 10px;
+}
+
+.vote{
+    position: absolute;
+    background-image: url(vote.png);
+    background-size: 100%;
+    width: 105px;
+    height: 105px;
+    left: 150px;
+    bottom: 55px;
+}
+.texto-abajo{
+    font-style: italic;
+    font-size: 11px;
+    width: 300px;
+    text-align: center;
+    margin-left: 50px;
+}
+.texto-abajo1{
+    font-size: 10px;
+    width: 450px;
+    margin-left: -70px;
+}
+.texto-cajab1{
+    position: absolute;
+    width: 190px;
+    margin-top: -1px;
+    font-size: 11px;
+    top: 0;
+}
+.lista-derecha{
+    position: absolute;
+    top: 430px;
+    text-indent: 20px;
+    font-size: 11px;
+}
+.lista-derecha1{
+    position: absolute;
+    top: 570px;
+    text-indent: 20px;
+    font-size: 11px;
+}
+.texto-cajab2{
+    position: absolute;
+    width: 170  px;
+    margin-top: -9px;
+    font-size: 11px;
+    display: block;
+    justify-content: center;
+    top: 0;
+}
+.lista-derecha3{
+    position: absolute;
+    top: 85px;
+    text-indent: 30px;
+    font-size: 11px;
+    
+}
+.lista-derecha4{
+    position: absolute;
+    top: 245px;
+    text-indent: 30px;
+    font-size: 11px;
+
+}
+.texto-abajoo{
+    position: absolute;
+    top: 419px;
+    text-indent: 20px;
+    font-size: 11px;
+}   
+.texto-abajoo1{
+    position: absolute;
+    position: absolute;
+    top: 520px;
+    text-indent: 20px;
+    font-size: 11px;
+}
+.texto-abajoo2{
+    position: absolute;
+    position: absolute;
+    top: 595px;
+    text-indent: 20px;
+    font-size: 11px;
 }
